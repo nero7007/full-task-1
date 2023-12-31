@@ -1,0 +1,511 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all;
+    transition-duration: 1s;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+}
+
+body {
+    overflow-x: hidden
+}
+
+/* header */
+header {
+    width: 100%;
+    height: 800px;
+    background-image: url(Task-Design/blue_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 85%;
+    position: relative;
+    top: 0px
+}
+
+/* navbar */
+.container-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 27px;
+    padding: 45.5px 10px
+}
+
+.logo {
+    width: 150px;
+    height: 84.375px
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.menu-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 435px;
+    gap: 40px
+}
+
+.menu-1 li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.menu-1 li a {
+    text-decoration: none;
+    color: #00000080;
+    font-weight: 500
+}
+
+.menu-1 li a::after {
+    content: "";
+    display: block;
+    width: 0%;
+    transition-property: width;
+    transition-duration: 0.5s;
+    margin-left: 5%;
+    height: 3px;
+    background-color: #b63dac
+}
+
+.menu-1 li a:hover::after {
+    width: 100%
+}
+
+.menu-1 li :hover {
+    color: #000000a6;
+    transition: 0.3s;
+    margin-bottom: 5%
+}
+
+.login {
+    color: #000000;
+    font-size: 80%;
+    position: relative;
+    margin-top: 4px;
+    width: 11%;
+    display: block;
+    box-shadow: none
+}
+
+.login img {
+    width: 87px;
+    position: absolute;
+    vertical-align: middle;
+    border-style: none
+}
+
+.login .btntxt {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    right: 23px;
+    vertical-align: inherit
+}
+
+.login:hover {
+    color: rgb(0, 195, 255);
+    filter: brightness(98%);
+    transition-property: all;
+    transition-duration: 0.5s
+}
+
+/* end navbar */
+/* section-1 */
+
+.section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.txt-1 {
+    margin-top: 6%;
+    margin-left: 6%;
+    width: 50%
+}
+
+.txt-1 h1 {
+    font-weight: 600;
+    font-size: 330%
+}
+
+.txt-1 h1 span {
+    color: #96318D
+}
+
+.txt-1 p {
+    font-weight: 100;
+    font-size: 170%;
+    width: 90%;
+    margin-top: 3%
+}
+
+.imgs-1 {
+    padding: 0px 10px;
+    position: relative
+}
+
+.img-1 {
+    width: 679.875px;
+    height: 675.234px;
+    position: absolute;
+    top: -244px;
+    right: -51px
+}
+
+.img-2 {
+    width: 291.375px;
+    height: 470.906px;
+    position: absolute;
+    top: -186px;
+    left: -409px
+}
+
+.img-3 {
+    width: 388.500px;
+    height: 201.688px;
+    position: absolute;
+    top: 180px;
+    left: -450px
+}
+
+.img-4 {
+    width: 1408.310px;
+    height: 201.688px;
+    position: absolute;
+    top: 245px;
+    right: 280px
+}
+
+/* end section-1 */
+/* end header */
+/* section-2 */
+.section-2 {
+    max-width: 1280px;
+    height: 1000px;
+    background-image: url(Task-Design/second_section_.png);
+    background-repeat: no-repeat;
+    padding: 0px 15px;
+    margin: 0px 6.500px;
+    background-size: 70% 57%;
+    background-position: top left 10vw;
+    position: relative;
+    top: 0px;
+    left: 80px;
+
+}
+
+.sec-1 {
+    position: absolute;
+    top: 85px;
+    left: -70px;
+    width: 382px;
+    text-align: center;
+}
+
+.sec-2 {
+    position: absolute;
+    top: 277px;
+    left: 370px;
+    text-align: center;
+}
+
+.sec-3 {
+    position: absolute;
+    top: 534px;
+    left: 665px;
+    width: 369px;
+    text-align: center;
+}
+
+.sec-4 {
+    position: absolute;
+    top: 461px;
+    left: 7px
+}
+
+.sec-1 img {
+    width: 193.328px;
+    height: 147.516px;
+}
+
+.sec-2 img {
+    width: 193.328px;
+    height: 146.742px;
+}
+
+.sec-3 img {
+    width: 231.047px;
+    height: 134.648px;
+}
+
+.sec-4 img {
+    width: 309.328px;
+    height: 256.906px;
+}
+
+.sec4-txt {
+    width: 184.227px;
+    height: 94px;
+    position: absolute;
+    top: 81.453px;
+    right: 108.719px;
+    bottom: 81.453px;
+    left: 72px;
+}
+
+.sec-4-p-2 {
+    width: 90px;
+    height: 22.500px;
+    font-size: 17px;
+    color: white;
+}
+
+.sec-4-h2 {
+    width: 184.227px;
+    height: 61.500px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: white;
+}
+
+.sec-2-h2 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #757575;
+}
+
+.sec-2-p {
+    font-size: 20px;
+    font-weight: 350;
+    display: block;
+    width: 410px;
+    color: #727272;
+}
+
+/* end-section-2 */
+/* section-3 */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 80%;
+    width: 980.4px;
+    height: 354.852px;
+    padding: 0px 15px;
+    margin: auto;
+    position: relative;
+    bottom: 100px
+}
+
+.regular-1 img {
+    width: 147px;
+    height: 157.711px;
+    position: absolute;
+    top: 92px;
+    left: 47px
+}
+
+.regular-2 img {
+    width: 330.75px;
+    height: 291.125px;
+    position: absolute;
+    top: 3px;
+    left: 325px
+}
+
+.regular-2 .rhd1 {
+    display: block;
+    width: 253px;
+    height: 26.398px;
+    text-align: center;
+    font-size: 110%;
+    font-weight: 500;
+    color: rgb(97, 97, 97);
+    margin-top: 319px;
+    margin-bottom: 17.703px
+}
+
+.regular-2 .rtxt1 {
+    display: block;
+    width: 72%;
+    width: 152.156px;
+    height: 86.375px;
+    text-align: center;
+    font-size: 90%;
+    font-weight: 0;
+    color: rgb(141, 141, 141);
+    margin-bottom: 17.703px;
+    margin-left: 48.703px
+}
+
+.regular-3 img {
+    width: 147px;
+    height: 148.070px;
+    position: absolute;
+    top: 127px;
+    right: 51px
+}
+
+.container .fa-chevron-left {
+    position: absolute;
+    bottom: 101px;
+    left: 267px;
+    font-family: "Font Awesome 5 Free";
+    font-size: 20px;
+    color: rgb(148, 148, 148)
+}
+
+.container .fa-angle-right {
+    position: absolute;
+    bottom: 101px;
+    right: 260px;
+    font-family: "Font Awesome 5 Free";
+    font-size: 20px;
+    color: rgb(148, 148, 148)
+}
+
+/* end-section-3 */
+/* footer */
+
+footer {
+    width: 1263px;
+    height: 450px;
+    overflow-y: hidden
+}
+
+.footer {
+    width: 1263px;
+    height: 519.750px;
+    background-image: url(Task-Design/Group-1131.png);
+    background-size: 115% 130%;
+    background-position: center;
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.footer-1 {
+    width: 590px;
+    height: 175.797px;
+    position: absolute;
+    left: 30px;
+    top: 220px;
+}
+
+.download {
+    width: 290px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 11.797px;
+}
+
+.ios, .google {
+    width: 125px;
+    height: 50px;
+    margin: 10px;
+    border: 0px solid;
+    border-radius: 13px;
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    color: #4d4d4d;
+}
+
+.dwn-img {
+    width: 18.750px;
+    height: 22.500px;
+    margin-left: 15px;
+}
+
+.ios-txt, .google-txt{
+    display: block;
+    width: 100px;
+    font-size: 12px;
+    border: 0px solid;
+    height: 22.500px;
+    margin-left: 15px;
+}
+
+.dwn-p {
+    display: block;
+    width: 100px;
+    font-size: 9.5px;
+    border: 0px solid;
+}
+
+
+.contact {
+    width: 340px;
+    height: 50px;
+    display: flex;
+    padding-left: 5px;
+    margin-left: 5px;
+    margin-bottom: 22px;
+}
+
+.ins-icon{
+    width: 24.750px;
+    height: 24.750px;
+    margin-right: 10px;
+}
+.w-icon{
+    width: 24.750px;
+    height: 24.750px;
+    margin-right: 10px;
+}
+
+.f-icon {
+    width: 14.844px;
+    height: 24.492px;
+}
+
+.list {
+    width: 590px;
+    height: 40px;
+    font-size: 15px;
+}
+
+.list ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.list li{
+    list-style-type: none;
+}
+
+.list a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.list li{
+    list-style-type: none;
+}
+
+.footer-2 img {
+    width: 587.289px;
+    height: 391.523px;
+    position: absolute;
+    bottom: 21%;
+    right: 7.5%;
+    width: 46.5%;
+}
